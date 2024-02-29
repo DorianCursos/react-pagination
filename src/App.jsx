@@ -1,10 +1,12 @@
+import UsersList from './components/users-list/UsersList';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
 	return (
 		<>
 			<GlobalStyles />
-			<h1>Núcleo de la aplicación</h1>
+			<h1>PAGINATION</h1>
+			<UsersList />
 		</>
 	);
 };
